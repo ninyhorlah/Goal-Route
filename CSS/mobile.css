@@ -1,0 +1,282 @@
+/* Styling the Navbar */
+.logo {
+    padding: 0 30px;
+    position: relative;
+    animation-name: none;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    0% {top: 0px;}
+    100%{top: 0px;}
+}
+
+/* Section One */
+.bg-container {
+    height: fit-content;
+    background: linear-gradient(210.78deg, #7900B2 48.44%, rgba(4, 0, 201, 0.6) 100%);
+}
+
+.bg-img img {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-img {
+    margin: auto;
+    width: 100%;
+    animation-name: none;
+    animation-duration: 0s;
+    position: unset;
+    animation-fill-mode: forwards;
+    padding: 30px 0px 10px 80px;
+}
+
+@keyframes img {
+    0% {top: 0px;}
+    100%{top: 0px;}
+}
+
+.bg-content {
+    margin: auto;
+    position: unset;
+    display: block;
+    height: fit-content;
+}
+
+.bg-text {
+    margin: 30px auto 150px auto;
+    text-align: center;
+} 
+
+.bg-text h1 {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.bg-text p {
+    font-size: 18px;
+    line-height: 17px;
+    padding: 5px 0 30px 0;
+}
+
+.btn a {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 25px;
+}
+
+/* Section Two */
+.section-two {
+    width: 100%;
+}
+
+.section-two .row{
+    margin: 10px auto 40px auto;
+    text-align: center;
+}
+
+.section-two-text {
+    padding: 40px 60px 0px 60px;
+}
+
+.section-two-text h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.section-two-text h2 {
+    padding: 15px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.img {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.txt {
+    font-size: 18px;
+    line-height: 22px;
+    color: #808080;
+}
+
+/* Section 3: carousel */
+.carousel {
+    background: linear-gradient(200.3deg, #7900B2 0%, rgba(113, 0, 180, 0.972917) 49.48%, rgba(4, 0, 201, 0.6) 100%);
+}
+
+.carousel-inner {
+    padding: 20px 0;
+}
+
+.head {
+    font-size: 24px;
+    line-height: 29px;
+    padding: 50px 0px 10px 0px;
+    text-align: center;
+    
+}
+.sub-head {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 0 20px 30px 60px;
+    margin: auto;
+    align-items: center;
+}
+.body {
+    font-size: 18px;
+    line-height: 19px;
+    padding: 0 20px 30px 60px;
+    margin: auto !important;
+    align-items: center;
+}
+
+.img-txt {
+    display: block !important;
+}
+
+.img-txt a img {
+    height: 500px !important;
+    width: 300px !important;
+    margin: auto !important;
+}
+
+.img-txt span {
+    margin: 30px auto !important;
+}
+
+.arrow {
+    margin:5px 10px 5px 80px;
+    align-items: center;
+}
+
+.fa-angle-left {
+    margin: 0 0 0 80px;
+}
+
+.carousel-body {
+    text-align: center;
+    padding: 0px 0 20px 0;
+}
+
+.car-body {
+    margin: auto;
+    align-items: center;
+}
+
+.icon {
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+/* Section four */
+.section-four {
+    padding: 20px;
+}
+
+.section-four p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #202020; 
+    margin: 10px 20px;
+}
+
+.section-four-content {
+    padding: 40px 0 30px 0;
+}
+
+.section-four-content img {
+    margin: auto;
+    align-items: center;
+    padding: 0px 10px 0px 50px;
+}
+
+.para {
+    padding: 30px 30px 0px 30px;
+}
+
+.border {
+    display: none;
+}
+
+/* Section five: coming soon section */
+.bg-color {
+    background: linear-gradient(244.39deg, #7900B3 49.48%, rgba(4, 0, 201, 0.6) 100%);
+}
+
+.soon-content {
+    margin: auto;
+    height: fit-content;
+    padding: 10px 10px 60px 10px;
+}
+
+.soon-content h2 {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 30px 10px 10px 10px;
+    color: #ffffff;
+}
+
+.soon-content p {
+    font-size: 18px;
+    line-height: 19px;
+    padding: 5px 100px;
+    color: #ffffff;
+}
+
+input {
+    width: 70%;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: none;
+    margin: 10px 60px 40px 60px;
+    background-color: #F6F6F6;
+}
+
+/* Footer Section */
+.footer {
+    margin: 50px auto;
+    align-items: center;
+}
+
+.footer img {
+    width: 70%;
+    margin: 10px auto 20px auto;
+    align-items: center;
+    padding: 20px 30px 50px 130px;
+}
+
+.footer .row h4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #2D2D2D;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-link {
+    padding: 5px;
+}
+
+.inner-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    align-items: center !important;
+    padding: 0px 30px 30px 50px;
+} 
+
+.footer-link-head {
+    padding-left: 20px;
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+}
