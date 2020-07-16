@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS/fancybox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" media="screen and (max-width: 578px)" href="./CSS/mobile.css">
     <title>Goal Route</title>
 </head>
 <body>
     <div>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light container">
-            <a class="navbar-brand logo" href="#"><img src="./img/logo.png" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light container" id="home">
+            <a class="navbar-brand logo" href="#home"><img src="./img/logo.png" alt="logo" ></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Productivity</a>
-                <a class="nav-item nav-link" href="#">Product</a>
+                <a class="nav-item nav-link" href="#features">Features</a>
+                <a class="nav-item nav-link" href="#productivity">Productivity</a>
+                <a class="nav-item nav-link" href="#product">Product</a>
               <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link active" href="#contact">Contact Us <span class="sr-only">(current)</span></a>
                 
               </div>
             </div>
@@ -37,7 +38,7 @@
     <div class="bg-container">
         <div class="bg-content container">
             <div class="row">
-                <div class="col-md-7 col-sm-12 bg-img">
+                <div class="col-md-7 col-sm-12 bg-img" data-aos="zoom-in-right">
                     <img src="./img/bg1.png" alt="bg1">
                 </div>
                 <div class="col-md-5 col-sm-12 bg-text">
@@ -52,7 +53,7 @@
     </div>
 
     <!-- Section two -->
-    <div class="container section-two">
+    <div class="container section-two" id="features" data-aos="fade-up" data-aos-anchor-placement="top-center">
         <div class="text-center section-two-text">
             <h3>WHY GOAL ROUTE</h3>
             <h2>A simple easy way to achieve your set goals</h2>
@@ -75,7 +76,7 @@
     </div>
 
     <!-- Section three -->
-    <div class="carousel">
+    <div class="carousel" id="productivity">
         <div class="container carousel-inner">
             <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12">
@@ -192,10 +193,10 @@
     </div>
 
     <!-- Section four -->
-    <div class="section-four">
+    <div class="section-four" id="product">
         <div class="container">
             <div class="row section-four-content">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12" data-aos="fade-right">
                     <img src="./img/section-four-1.png" alt="section-four-1">
                 </div>
                 <div class="col-md-5 col-sm-12">
@@ -204,7 +205,7 @@
             </div>
             <div class="border"></div>
             <div class="row section-four-content">
-                <div class="col-md-5 col-sm-12 order-md-12">
+                <div class="col-md-5 col-sm-12 order-md-12" data-aos="fade-left">
                     <img src="./img/section-four-2.png" alt="section-four-2">
                 </div>
                 <div class="col-md-7 col-sm-12 order-md-1">
@@ -214,7 +215,7 @@
             </div>
             <div class="border"></div>
             <div class="row section-four-content">
-                <div class="col-md-7 col-sm-12">
+                <div class="col-md-7 col-sm-12" data-aos="fade-right">
                     <img src="./img/section-four-3.png" alt="section-four-3">
                 </div>
                 <div class="col-md-5 col-sm-12">
@@ -225,7 +226,7 @@
     </div>
 
     <!-- Section five: coming soon -->
-    <div class="bg-color">
+    <div class="bg-color" id="contact">
         <div class="container text-center soon-content">
             <h2>WE ARE COMING SOON</h2>
             <p>Subcribe to our mailing list so we can let you know when we launch</p>
@@ -306,5 +307,13 @@
 
     <!-- fancybox -->
     <script src="./JS/fancybox.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        });
+    </script>
 </body>
 </html>

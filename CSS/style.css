@@ -14,7 +14,7 @@ body {
     padding: 0 30px;
     position: relative;
     animation-name: logo;
-    animation-duration: 1s;
+    /* animation-duration: 1s; */
     animation-fill-mode: forwards;
 }
 
@@ -26,7 +26,7 @@ body {
 
 .collapse a {
     color: #000000 ;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 2px;
     background-color: #ffffff;
     padding: 30px;
@@ -35,14 +35,14 @@ body {
 
 .collapse a:hover {
     background-color: #7900B2 !important;
-    padding: 28px 35px !important;
+    padding: 20px 25px !important;
     color: #ffffff !important;
     border-radius: 10px;
 }
 
 .active {
     background-color: #7900B2 !important;
-    padding: 28px 35px !important;
+    padding: 20px 25px !important;
     color: #ffffff !important;
     border-radius: 10px;
 }
@@ -59,7 +59,7 @@ body {
     margin: auto;
     position: relative;
     animation-name: content;
-    animation-duration: 4s;
+    /* animation-duration: 4s; */
     animation-fill-mode: forwards;
     width: 100%;
 }
@@ -75,10 +75,14 @@ body {
     /* padding-left: 100px; */
     width: 100%;
     animation-name: img;
-    animation-duration: 4s;
+    /* animation-duration: 4s; */
     position: relative;
     animation-fill-mode: forwards;
     padding: 20px 0;
+}
+
+.bg-img img {
+    width: 400px;
 }
 
 @keyframes img {
@@ -94,23 +98,23 @@ body {
 } 
 
 .bg-text h1 {
-    font-size: 64px;
+    font-size: 54px;
     line-height: 77px;
 }
 
 .bg-text p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     padding: 10px 0 40px 0;
 }
 
 .btn a {
     color: #7900B2;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 15px 35px;
+    padding: 13px 30px;
     font-weight: bold;
     text-decoration: none;
     transition: background, transform, color;
@@ -134,20 +138,20 @@ body {
 }
 
 .section-two-text {
-    padding: 40px;
+    padding: 10px ;
 }
 
 .section-two-text h3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     font-weight: 400;
     color: #202020;
 }
 
 .section-two-text h2 {
-    padding: 20px;
-    font-size: 32px;
-    line-height: 38px;
+    padding: 10px;
+    font-size: 28px;
+    line-height: 26px;
     color: #202020;
     font-weight: bold;
 }
@@ -159,7 +163,7 @@ body {
 }
 
 .txt {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     color: #808080;
 }
@@ -184,20 +188,20 @@ body {
 }
 
 .head {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 20px;
     color: #ffffff;
     padding: 50px 0 30px 0;
 }
 .sub-head {
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 30px;
     color: #ffffff;
     padding: 0 0 30px 0;
 }
 .body {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 20px;
     color: #ffffff;
 }
 
@@ -206,8 +210,8 @@ body {
 }
 
 .img-txt a img {
-    width: 411px !important;
-    height: 731px !important;
+    width: 311px !important;
+    height: 531px !important;
 }
 
 .img-txt span {
@@ -215,11 +219,11 @@ body {
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 30px;
     color: #7900B2;
     background-color: #ffffff;
     border-radius: 50%;
-    padding: 5px 20px;
+    padding: 10px 20px;
     margin: 0 0 40px 0;
 }
 
@@ -257,7 +261,7 @@ body {
 }
 
 .section-four p {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
     color: #202020; 
     margin: 80px 20px;
@@ -288,26 +292,27 @@ body {
 }
 
 .soon-content h2 {
-    font-size: 32px;
+    font-size: 28px;
     line-height: 43px;
-    padding: 50px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
     color: #ffffff;
 }
 
 .soon-content p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 32px;
     padding: 10px;
     color: #ffffff;
 }
 
 input {
-    width: 60%;
-    padding: 25px 0;
+    width: 50%;
+    padding: 20px 0;
     border-radius: 10px;
     margin-bottom: 25px;
     border: none;
-    margin: 60px;
+    margin: 50px;
+    background-color: #F6F6F6;
 }
 
 /* Footer Section */
@@ -316,18 +321,18 @@ input {
 }
 
 .footer img {
-    width: 100%;
+    width: 200px;
     margin: 30px auto;
 }
 
 .footer .row h4 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #2D2D2D;
 }
 
 .footer a, .footer p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     color: #2D2D2D;
     font-weight: 500;
@@ -395,18 +400,18 @@ input {
 } 
 
 .bg-text h1 {
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 40px;
+    line-height: 60px;
 }
 
 .bg-text p {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 20px;
     padding: 8px 0 35px 0;
 }
 
 .btn a {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
     padding: 10px 25px;
 }
@@ -425,13 +430,13 @@ input {
 }
 
 .section-two-text h3 {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 22px;
 }
 
 .section-two-text h2 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
 }
 
@@ -459,21 +464,21 @@ input {
 }
 
 .head {
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 20px;
     padding: 50px 0px 10px 0px;
     text-align: center !important;
     
 }
 .sub-head {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     padding: 0 20px 30px 40px;
     margin: auto;
     align-items: center;
 }
 .body {
-    font-size: 18px;
+    font-size: 10px;
     line-height: 19px;
     padding: 0 20px 30px 40px;
     margin: auto !important;
@@ -485,8 +490,8 @@ input {
 }
 
 .img-txt a img {
-    height: 500px !important;
-    width: 300px !important;
+    height: 311px !important;
+    width: 531px !important;
     margin: auto !important;
 }
 
@@ -513,13 +518,13 @@ input {
 .car-body {
     margin: auto;
     align-items: center;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 22px;
     padding: 0 10px 30px 20px;
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px 15px;
 }
 
@@ -529,7 +534,7 @@ input {
 }
 
 .section-four p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 24px;
     color: #202020; 
     margin: 10px 20px;
@@ -572,19 +577,19 @@ input {
 }
 
 .soon-content p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 19px;
-    padding: 5px 100px;
+    padding: 10px;
     color: #ffffff;
 }
 
 input {
-    width: 70%;
+    width: 50%;
     padding: 20px 0;
     border-radius: 10px;
     margin-bottom: 25px;
     border: none;
-    margin: 10px 60px 40px 60px;
+    margin: 50px;
     background-color: #F6F6F6;
 }
 
@@ -595,16 +600,23 @@ input {
 }
 
 .footer img {
-    width: 70%;
+    width: 200px;
     margin: 10px auto 20px auto;
     align-items: center;
     padding: 20px 30px 50px 130px;
 }
 
 .footer .row h4 {
-    font-size: 24px;
+    font-size: 12px;
     line-height: 29px;
     color: #2D2D2D;
+}
+
+.footer a, .footer p {
+    font-size: 8px;
+    line-height: 22px;
+    color: #2D2D2D;
+    font-weight: 500;
 }
 
 .footer a {
@@ -686,18 +698,18 @@ input {
 } 
 
 .bg-text h1 {
-    font-size: 50px;
-    line-height: 68px;
+    font-size: 30px;
+    line-height: 58px;
 }
 
 .bg-text p {
-    font-size: 20px;
+    font-size: 12px;
     line-height: 28px;
     padding: 8px 0 35px 0;
 }
 
 .btn a {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 22px;
     padding: 10px 25px;
 }
@@ -716,18 +728,18 @@ input {
 }
 
 .section-two-text h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 22px;
 }
 
 .section-two-text h2 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
 }
 
 .img {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 23px;
     text-align: center;
 }
@@ -750,21 +762,21 @@ input {
 }
 
 .head {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     padding: 50px 0px 10px 0px;
     text-align: center !important;
     
 }
 .sub-head {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
     padding: 0 20px 30px 40px;
     margin: auto;
     align-items: center;
 }
 .body {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 19px;
     padding: 0 20px 30px 40px;
     margin: auto !important;
@@ -804,13 +816,13 @@ input {
 .car-body {
     margin: auto;
     align-items: center;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 22px;
     padding: 0 10px 30px 20px;
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 26px;
     padding: 5px 15px;
 }
 
@@ -820,7 +832,7 @@ input {
 }
 
 .section-four p {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 24px;
     color: #202020; 
     margin: 15px 20px;
@@ -856,21 +868,21 @@ input {
 }
 
 .soon-content h2 {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 22px;
     padding: 30px 10px 10px 10px;
     color: #ffffff;
 }
 
 .soon-content p {
-    font-size: 18px;
+    font-size: 10px;
     line-height: 19px;
     padding: 5px 100px;
     color: #ffffff;
 }
 
 input {
-    width: 70%;
+    width: 50%;
     padding: 20px 0;
     border-radius: 10px;
     margin-bottom: 25px;
@@ -893,7 +905,7 @@ input {
 }
 
 .footer .row h4 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 29px;
     color: #2D2D2D;
 }

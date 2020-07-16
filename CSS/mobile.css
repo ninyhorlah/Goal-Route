@@ -82,23 +82,23 @@
 }
 
 .section-two-text h3 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
 }
 
 .section-two-text h2 {
     padding: 15px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 29px;
 }
 
 .img {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 38px;
 }
 
 .txt {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     color: #808080;
 }
@@ -139,8 +139,8 @@
 }
 
 .img-txt a img {
-    height: 500px !important;
-    width: 300px !important;
+    height: 400px !important;
+    width: 280px !important;
     margin: auto !important;
 }
 
@@ -192,6 +192,7 @@
     margin: auto;
     align-items: center;
     padding: 0px 10px 0px 50px;
+    width: fit-content;
 }
 
 .para {
