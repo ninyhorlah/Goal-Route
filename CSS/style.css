@@ -53,7 +53,7 @@ body {
 .bg-container {
     background: linear-gradient(244.39deg, #7900B3 49.48%, rgba(4, 0, 201, 0.6) 100%);
     height: fit-content;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .bg-content {
@@ -62,7 +62,7 @@ body {
     animation-name: content;
     /* animation-duration: 4s; */
     animation-fill-mode: forwards;
-    width: 100%;
+    /* width: 100%; */
 }
 
 @keyframes content {
@@ -95,7 +95,7 @@ body {
 .bg-text {
     margin: 150px auto;
     color: #ffffff;
-    width: 100%;
+    /* width: 100%; */
 } 
 
 .bg-text h1 {
@@ -130,9 +130,9 @@ body {
 }
 
 /* Section Two */
-.section-two {
+/* .section-two {
     width: 100%;
-}
+} */
 
 .section-two .row{
     margin: 10px auto 40px auto;
@@ -188,12 +188,12 @@ body {
     padding-left: 0px !important;
 }
 
-/* .login img {
-    background: #ffffff;
+.login img {
+    background: #650292;
     border-radius: 10px;
     padding: 20px 0;
     
-} */
+}
 
 .head {
     font-size: 18px;
@@ -239,14 +239,14 @@ body {
     margin: 0 0 0 50px;
 }
 
-#slideshow div {
+/* #slideshow div {
     width: 100%;
-}
+} */
 
-#slideshow img {
+/* #slideshow img {
     width: 100%;
     height: auto;
-}
+} */
 
 .slick-arrow.slick-disabled {
     display: none;
@@ -260,7 +260,7 @@ body {
 /* Section four */
 .section-four {
     background-color: #f5f5f5;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .section-four img {
@@ -1426,7 +1426,7 @@ input {
     display: flex !important;
     margin: auto;
     align-items: center;
-    width: 100% !important;
+    /* width: 100% !important; */
 }
 
 .col-class {
@@ -1515,7 +1515,7 @@ input {
 
 .section-four-content {
     padding: 40px 0 30px 0;
-    width: 100% !important;
+    /* width: 100% !important; */
 }
 
 .section-four-content img {
