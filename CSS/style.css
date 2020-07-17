@@ -5,7 +5,8 @@
     outline:none;
 }
 
-body {
+body, html {
+    width: 100%;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
 }
@@ -189,7 +190,7 @@ body {
 }
 
 .login img {
-    background: #650292;
+    /* background: #650292; */
     border-radius: 10px;
     padding: 20px 0;
     
@@ -239,14 +240,14 @@ body {
     margin: 0 0 0 50px;
 }
 
-/* #slideshow div {
+#slideshow div {
     width: 100%;
-} */
+}
 
-/* #slideshow img {
+#slideshow img {
     width: 100%;
     height: auto;
-} */
+}
 
 .slick-arrow.slick-disabled {
     display: none;
@@ -355,6 +356,11 @@ input {
 }
 
 @media (min-width: 200px) and (max-width: 499px){
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+        font-family: 'Lato', sans-serif;
+    }
 /* Styling the Navbar */
 .logo {
     padding: 0 30px;
@@ -498,16 +504,16 @@ input {
 
 .img-txt a img {
     height: 311px !important;
-    width: 531px !important;
+    width: 50% !important;
     margin: 20px auto !important;
 }
 
 .img-txt span {
-    margin: 30px auto !important;
+    margin: 5px 0 0 5px auto !important;
 }
 
 .arrow {
-    margin: 30px 140px;
+    margin: 30px 50px;
     display: inline;
 }
 
@@ -646,6 +652,11 @@ input {
 }
 
 @media (min-width: 500px) and (max-width: 578px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+        font-family: 'Lato', sans-serif;
+    }
   /* Styling the Navbar */
 .logo {
     padding: 0 30px;
@@ -758,7 +769,7 @@ input {
     display: flex !important;
     margin: auto;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .head {
@@ -787,9 +798,14 @@ input {
     display: block !important;
 }
 
+/* .login img {
+    height: 1500px;
+    width: 330px;
+} */
+
 .img-txt a img {
     height: 311px !important;
-    width: 531px !important;
+    width: 330px !important;
     margin: 20px auto !important;
 }
 
