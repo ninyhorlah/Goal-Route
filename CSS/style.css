@@ -188,12 +188,12 @@ body {
     padding-left: 0px !important;
 }
 
-.login img {
+/* .login img {
     background: #ffffff;
     border-radius: 10px;
     padding: 20px 0;
     
-}
+} */
 
 .head {
     font-size: 18px;
@@ -507,7 +507,7 @@ input {
 }
 
 .arrow {
-    margin: 30px 160px;
+    margin: 30px 140px;
     display: inline;
 }
 
@@ -798,7 +798,7 @@ input {
 }
 
 .arrow {
-    margin: 30px 160px;
+    margin: 30px 150px;
     display: inline;
 }
 
